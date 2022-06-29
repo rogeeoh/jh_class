@@ -1,5 +1,5 @@
 function sum (a, b) {
-  return new Promise((resolve) => {
+  return new Promise((resolve, reject) => {
     // 오래걸리는 작업 (네트워크, DB, 파일입출력)
     resolve(a + b);
   })

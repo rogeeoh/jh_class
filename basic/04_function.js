@@ -19,3 +19,10 @@ const s2 = sum2(20, 50);
 console.log(s2)
 
 sum(10);
+
+function printMultiply(value, multiply = 2) {
+  console.log(value * multiply);
+}
+
+printMultiply(3, 5);
+printMultiply(3);

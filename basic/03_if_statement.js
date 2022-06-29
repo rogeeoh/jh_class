@@ -21,3 +21,27 @@ a > b
 // 변수 할당을 한번에 할 수 있다.
 // const big = a > b ? a : b;
 // console.log(big)
+
+
+// 빈 string은 false
+if ('') {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+let age;
+if (age) {
+    console.log('not undefined');
+} else {
+    console.log('undefined')
+}
+
+// true
+const sum = () => a + b;
+if (sum) {
+    console.log('sum is defined');
+}
+else {
+    console.log('sum is not defined');
+}
