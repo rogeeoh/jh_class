@@ -19,3 +19,12 @@ const s2 = sum2(20, 50);
 console.log(s2)
 
 sum(10);
+
+
+// 값이 입력되지 않을 경우 default값을 주도록 설정할 수 있다.
+function printMultiply(value, multiply = 1) {
+  console.log(value * multiply);
+}
+
+printMultiply(2, 2); // 4
+printMultiply(2); // 2
